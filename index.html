@@ -1,7 +1,8 @@
 <html>
 <head>
-  /**
   <script>
+  function GetContent ()
+  {
   fetch('https://script.google.com/macros/s/AKfycbybcPDNxhjYRtD6jaeuk2oHd3lVxvjXNeps-u_n2u5gP0Ziyow/exec')
   .then((response) => {
     return response.json();
@@ -10,13 +11,10 @@
     console.log(data);
   });
   alert("hola");
-  
-  </script>
-  */
-  function test ()
-  {
-     alert("hi");
   }
+    
+  GetContent ();
+  </script>
 </head>
 <body onload="test();">
 Test 2
